@@ -9,13 +9,12 @@ export default function Collection({collections}) {
         <ul className="standard-column__nav">
           {collections.map((collection, index) => (
             <li key={collection.id}>
-              {index > 0 ? 
               <Link
               to={`/collections/${collection.handle}`}
               className="block p-4 hover:opacity-80"
             >
               {collection.title}
-            </Link> : `` }
+            </Link>
               
             </li>
           ))}

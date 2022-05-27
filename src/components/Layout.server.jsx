@@ -22,7 +22,7 @@ export default function Layout({children, hero}) {
     query: QUERY,
     variables: {
       language: languageCode,
-      numCollections: 3,
+      numCollections: 100,
     },
     cache: CacheHours(),
     preload: '*',

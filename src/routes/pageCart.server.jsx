@@ -8,6 +8,7 @@ export default function PageCart() {
     <Layout>
       <div>
         <CartClient />
+        
       </div>
     </Layout>
   )

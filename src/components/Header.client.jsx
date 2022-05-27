@@ -124,6 +124,11 @@ export default function Header({collections, storeName}) {
                 >About
               </Link>
             </li>
+            <li>
+              <Link to={`/terms`} className="text-blue-600 hover:underline"
+                >TERMS OF SERVICES
+              </Link>        
+            </li>
             
           </ul>
 
